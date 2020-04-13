@@ -2,8 +2,6 @@ if exists("b:current_syntax")
   finish
 endif
 
-echom "Syntax"
-
 syntax keyword potionKeyword loop times to while
 syntax keyword potionKeyword if elsif else
 syntax keyword potionKeyword class return
